@@ -1,0 +1,194 @@
+		body h1 {
+			color: blue;
+
+		}
+
+		.container {
+			width: 100%;
+			height: 100%;
+			background-color: #f0f2f5;
+		}
+
+		input[onkeypress="return /[a-z]/i.test(event.key)"], select {
+			width: 60%;
+			height: 5%;
+			padding: 10px, 20px, 0;
+			border-radius: 8px;
+		}
+
+
+		input[type="password"], select {
+			width: 60%;
+			height: 5%;
+			padding: 10px, 20px, 0;
+			border-radius: 8px;
+		}
+
+		input[type="tel or email"], select {
+			width: 60%;
+			height: 5%;
+			padding: 10px, 20px, 0;
+			border-radius: 8px;
+		}
+
+		.dob {
+			width: 20%;
+			height: 5%;
+			padding: 10px, 20px, 0;
+			border-radius: 8px;
+		}
+
+		input[type="number"], select {
+			width: 20%;
+			height: 5%;
+			padding: 10px, 20px, 0;
+			border-radius: 8px;
+		}
+
+
+		.main {
+			margin: auto;
+			width: 30%;
+			padding: 10px;
+			background-color: white;
+			border-radius: 6px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+		}
+
+		.main-fname {
+			width: 100%;
+			margin-top: 10px;
+
+		}
+
+		.main-fname input[type=text] {
+			width: 100%;
+			padding: 9px;
+			font-size: 17px;
+			border: none;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		.main-sname {
+			width: 100%;
+			margin-top: 20px;
+
+		}
+
+		.main-sname input[type=text] {
+			width: 100%;
+			padding: 9px;
+			font-size: 17px;
+			border: none;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		.main-email {
+			width: 100%;
+			margin-top: 20px;
+
+		}
+
+		.main-email input[type=text] {
+			width: 100%;
+			height: 5%;
+			padding: 9px;
+			font-size: 17px;
+			border: none;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		.main-password {
+			width: 100%;
+			margin-top: 20px;
+
+		}
+
+		.main-password input[type=password] {
+			width: 100%;
+			padding: 9px;
+			font-size: 17px;
+			border: none;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		.main-button {
+
+			width: 60%;
+			padding: 10px;
+			margin-top: 20px;
+			margin-left: 27%;
+
+
+		}
+
+		.main-button input[type=submit] {
+			width: 70%;
+			padding: 9px;
+			font-size: 17px;
+			font-weight: bold;
+			border: none;
+			background-color: #00a400;
+			color: white;
+			border-radius: 8px;
+			cursor: pointer;
+
+		}
+
+		.main-dob {
+			margin-top: 20px;
+
+		}
+
+
+
+
+		.main-gender {
+			width: 100%;
+			margin-top: 20px;
+
+
+		}
+
+		.para {
+			text-align: center;
+			font-family: arial;
+			color: deepskyblue;
+		}
+
+		.main-gender-alert {
+
+			width: 15px;
+			height: 15px;
+			display: inline-block;
+			background-color: #808080;
+			font-size: 12px;
+			border-radius: 50%;
+			text-align: center;
+			color: white;
+			margin-left: 3px;
+		}
+
+		.main-gender-choice {
+
+			width: 100%;
+			margin-top: 5px;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.main-gender-name {
+
+			width: 32%;
+			border: 1px solid #ccc;
+			padding: 5px;
+			border-radius: 5px;
+			font-size: 17px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
